@@ -1,0 +1,60 @@
+body {
+	background: white;
+}
+.trans{	
+	transition: background 500ms linear;
+}
+.calc {
+	width: 250px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top:10px;
+	box-shadow: 2px 0 20px 0 black, 5px 0 10px 2px rgba(0,0,0,0.25) inset;
+	border-radius: 20px;
+	color: black;
+	background: snow;
+}
+table {	
+	font: 20px monospace;
+	text-align: center;
+}
+.display {
+	border-radius: 10px;
+	max-width: 200px;
+	padding: 10px;
+	height: 100px;
+	box-shadow: 0 0 25px 0 rgba(200,200,255,0.5) inset, 2px 0 1px 0 gray;
+}
+.mainLineStyle {	
+	font-size: 20px;
+	text-align: right;
+}
+.chainLineStyle {
+	font-size: 14px;
+	text-align: left;
+}
+td {
+	height: 50px;
+	width: 50px;
+}
+button {
+	width: 90%;
+	height: 90%;
+	border-radius: 20px;
+	border: 1px solid rgba(0,0,0,0.2);
+	background: transparent;
+	box-shadow: 1px 0 0 0 gray;
+}
+button:hover {
+	width: 95%;
+	height: 95%;
+}
+button:active, .buttonActive {
+	width: 85%;
+	height: 85%;	
+	box-shadow: 1px 0 0px 0 gray inset;
+	font-size: 18px;
+}
+button:focus {
+	outline:0;
+}
